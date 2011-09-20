@@ -6,6 +6,13 @@ You can Import an Image and set Points for Triangulation.
 If you Export, the Application create a PDF File of the created Image.  
 Also it was created a txt File, contained all triangulate coordinates and  
 color hex. this will be used as import in future version.  
+
+The Navigation GUI on the Left Hand Side you can use to Zoom In / Out and to Navigate arround the image.  
+Also you can use the + / - Key and the Arrow Keys for the Navigation.  
+
+Testes Operating System:  
+MacOS 10.5+  
+
 Used Libraries: controlP5, triangulate
 
 * * * 

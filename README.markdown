@@ -1,0 +1,39 @@
+#wngITD#
+
+Description:  
+wngITD (ImageTriangulateDrawer) is an Application to create a Triangulate Mesh.  
+You can Import an Image and set Points for Triangulation.  
+If you Export, the Application create a PDF File of the created Image.  
+Also it was created a txt File, contained all triangulate coordinates and  
+color hex. this will be used as import in future version.  
+Used Libraries: controlP5, triangulate
+
+* * * 
+
+Build with [Processing](http://www.processing.org) (version 1.2.1)
+
+The wngITD Project is Hosted at github.  
+Check out for New released Version at (<https://github.com/WrongEntertainment/wngapps>).  
+
+Old Repository Hosted at Google Code. (<http://code.google.com/p/wng-itd/>). 
+
+wngITD is a wrong-entertainment production.  
+Copyright 2011 [wrong-entertainment](http://wrong-entertainment.com)  
+<wrongentertainment@yahoo.de>
+
+This file is part of wngITD.  
+
+* * *
+
+wngITD is free software: you can redistribute it and/or modify  
+it under the terms of the GNU Lesser General Public License as published by  
+the Free Software Foundation, either version 3 of the License, or  
+(at your option) any later version.  
+
+wngITD is distributed in the hope that it will be useful,  
+but WITHOUT ANY WARRANTY; without even the implied warranty of  
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the  
+GNU Lesser General Public License for more details.  
+
+You should have received a copy of the GNU Lesser General Public License  
+along with wngITD. If not, see <http://www.gnu.org/licenses/>.  

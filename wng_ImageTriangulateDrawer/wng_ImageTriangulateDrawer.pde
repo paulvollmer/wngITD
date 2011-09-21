@@ -1,26 +1,27 @@
 /**
- * wng_ImageTriangulateDrawer
  *
- * (c) paul vollmer, 2010
+ *  wngITD is a wrong-entertainment production
  *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) any later version.
+ *
+ *  Copyright 2011 wrong-entertainment
+ *                 <wrongentertainment@yahoo.de>
+ *                 <http://wrong-entertainment.com>
  * 
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- * 
- * You should have received a copy of the GNU Lesser General
- * Public License along with this library; if not, write to the
- * Free Software Foundation, Inc., 59 Temple Place, Suite 330,
- * Boston, MA  02111-1307  USA
- * 
- * @author		paul vollmer http://www.wrong-entertainment.com
- * @modified	        2010/12/13
- * @version		0.1.1_04a
+ *  This file is part of wngITD.
+ *
+ *  wngITD is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Lesser General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  wngITD is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ *  GNU Lesser General Public License for more details.
+ *  
+ *  You should have received a copy of the GNU Lesser General Public License
+ *  along with wngITD. If not, see <http://www.gnu.org/licenses/>.
+ *
  */
 
 
@@ -39,7 +40,7 @@ float imgWidth = WIDTH-(SPACING*2);
 float imgHeight = HEIGHT-(SPACING*2);
 float iw, ih; // resize
 // font
-PFont wngFont;
+PFont VERA_MONO;
 String consoleText = "wng_imageTriangulationDrawer ### IMPORT AN IMAGE";
 // mouse position
 float mousePosX, mousePosY;
@@ -60,7 +61,7 @@ void setup() {
   // create controlP5 setup
   controlSetup();
   // font load
-  wngFont = loadFont("SansSerif.vlw");
+  VERA_MONO = createFont("VeraMono.ttf", 10, false);
 }
 
 
@@ -138,7 +139,7 @@ void draw() {
   rect(width-SPACING,0,SPACING,height);
   
   // console text
-  textFont(wngFont);
+  textFont(VERA_MONO);
   fill(0, 255, 255);
   text(consoleText, 130, 12);
   

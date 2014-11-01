@@ -16,8 +16,7 @@ Also you can use the + / - Key and the Arrow Keys for the Navigation.
 Build for [Processing](http://www.processing.org/) version 1.2.1  
 
 wngITD is developed by Paul Vollmer http://wrong-entertainment.com/  
-The wngITD Project Page is Hosted at http://wrongentertainment.github.com/wngITD/  
-Check out for New released Version at http://wrongentertainment.github.com/wngITD/  
+Check out for New released Version at http://github.com/paulvollmer/wngITD/  
 Old Repository Hosted at Google Code http://code.google.com/p/wng-itd/  
 
 This file is part of wngITD.  
@@ -33,7 +32,7 @@ Current version: 0.1.0
 Paul Vollmer  
 Mail: paul.vollmer@fh-potsdam.de  
 Url: http://www.wrong-entertainment.com  
-Github: http://www.github.com/WrongEntertainment  
+Github: http://www.github.com/paulvollmer  
 
 
 ## Thanks
@@ -55,7 +54,7 @@ controlP5, triangulate
 wngITD is Licensed under the GNU Lesser General  
 Public License: http://www.opensource.org/licenses/LGPL-3.0  
 
-Copyright (c) 2012 wrong-entertainment.com, all rights reserved.  
+Copyright (c) 2012-2014 wrong-entertainment.com, all rights reserved.  
 
 
 ## Changelog
@@ -67,7 +66,7 @@ A detailed changelog, intended for programmers.
 
 ## Bugs  
 You can find a list of all known bugs at  
-https://github.com/WrongEntertainment/wngITD/issues  
+https://github.com/paulvollmer/wngITD/issues  
 
 If you want to reporting a new Bug, create a new Issue at  
-https://github.com/WrongEntertainment/wngITD/issues  
+https://github.com/paulvollmer/wngITD/issues  
